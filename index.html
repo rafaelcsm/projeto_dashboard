@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Dashboard da Empresa</title>
+</head>
+<body class="body">
+    <nav class="navbar">
+        <div class="logo">
+            <h4>Dashboard Financeiro</h4>
+        </div>
+
+        <ul class="lista">
+            <li id="novo"><a href = "index.html">Dashboard</a></li>
+            <li id="contato"><a href = "index_whoare.html">Quem Somos</a></li>
+            <li id="cliente"><a href = "index_form.html">Fale Conosco</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+   <div class="primeiroContainer">
+
+    <div class="main">
+        <h1>Faturamento (Milhões de Reais)</h1>
+        <canvas id='first-chart' height="120"></canvas>
+    </div>
+
+    <div class="main">
+        <h1>Vendas/mês</h1>
+        <canvas id='bars' height="120"></canvas>
+    </div>
+
+   </div>
+
+   <div class="segundoContainer">
+        <div class="main_secundario">
+            <h1>Conversão de Leads</h1>
+            <canvas id='nut'></canvas>
+        </div>
+
+        <div class="footer">
+            <h1> Desenvolvido por Rafael Martini. Copyright &copy;2022</h1>
+        </div>
+        
+   </div>
+</main>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+   <script src='/js/script.js'></script>
+
+</body>
+</html>
+
+
